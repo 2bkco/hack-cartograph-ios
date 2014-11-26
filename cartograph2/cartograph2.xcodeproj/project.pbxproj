@@ -161,6 +161,11 @@
 				TargetAttributes = {
 					4C1899361A250B9C00D22025 = {
 						CreatedOnToolsVersion = 6.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					4C18994B1A250B9D00D22025 = {
 						CreatedOnToolsVersion = 6.1;
@@ -405,6 +410,7 @@
 				4C1899581A250B9D00D22025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C1899591A250B9D00D22025 /* Build configuration list for PBXNativeTarget "cartograph2Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +419,7 @@
 				4C18995B1A250B9D00D22025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
